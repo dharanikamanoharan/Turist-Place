@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <title>Contact</title>
+</head>
+<body>
+     <!-- HEADER -->
+    <header class="header">
+        <div class="logo">My Website</div>
+
+        <div class="burger" onclick="toggleMenu()">☰</div>
+
+        <nav id="menu" class="nav-links">
+            <a class="link" href="index.html">Home</a>
+            <a class="link" href="about.html">About</a>
+            <a class="link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <h1>This is our Contact Page</h1>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div>
+            <h3>Useful Links</h3>
+            <a href="index.html">Home</a><br>
+            <a href="about.html">About</a><br>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>131, Kumbakonam, Thanjavur(Dt)</p>
+            <a href="mailto:dharanikams721@gmail.com">dharanikams721@gmail.com</a><br>
+            <a href="https://www.linkedin.com/in/dharanika-manoharan-85b429230">LinkedIn</a>
+        </div>
+    </footer>
+
+    
+
+<script>
+    function toggleMenu() {
+        document.getElementById("menu").classList.toggle("show");
+    }
+</script>
+
+</body>
+</html>

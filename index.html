@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">My Website</div>
+
+        <div class="burger" onclick="toggleMenu()">☰</div>
+
+        <nav id="menu" class="nav-links">
+            <a class="link" href="index.html">Home</a>
+            <a class="link" href="about.html">About</a>
+            <a class="link" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <section class="content">
+
+        <div class="card">
+            <img src="Tajmahal.jpg" alt="Taj Mahal">
+            <p>The Taj Mahal is an ivory-white marble mausoleum in Agra, India, built by Mughal emperor Shah Jahan between 1631 and 1648 for his favorite wife, Mumtaz Mahal. It is considered the pinnacle of Mughal architecture.</p>
+        </div>
+
+        <div class="card">
+            <img src="Brihadeeswarar-temple.jpg" alt="Brihadeeswarar Temple">
+            <p>The Brihadeeswarar Temple in Thanjavur, a UNESCO World Heritage site, is a massive 11th-century Dravidian masterpiece dedicated to Lord Shiva, built by Rajaraja Chola I.</p>
+        </div>
+
+        <div class="card">
+            <img src="Auroville.jpg" alt="Auroville">
+            <p>Auroville, the "City of Dawn," is an experimental township near Puducherry founded in 1968 as a universal town for human unity beyond religion and politics.</p>
+        </div>
+
+        <div class="card">
+            <img src="Brown Church.jpg" alt="Brown Church">
+            <p>The "Brown Church" represents a spiritual and social movement addressing racial justice rooted in centuries of Latin American Christian heritage.</p>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div>
+            <h3>Useful Links</h3>
+            <a href="index.html">Home</a><br>
+            <a href="about.html">About</a><br>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>131, Kumbakonam, Thanjavur(Dt)</p>
+            <a href="mailto:dharanikams721@gmail.com">dharanikams721@gmail.com</a><br>
+            <a href="https://www.linkedin.com/in/dharanika-manoharan-85b429230">LinkedIn</a>
+        </div>
+    </footer>
+
+<script>
+    function toggleMenu() {
+        document.getElementById("menu").classList.toggle("show");
+    }
+</script>
+
+</body>
+</html>
